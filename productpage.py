@@ -92,7 +92,8 @@ def getForwardHeaders(request):
                          'x-b3-parentspanid',
                          'x-b3-sampled',
                          'x-b3-flags',
-                         'x-ot-span-context'
+                         'x-ot-span-context',
+                         'x-re-route'
     ]
 
     for ihdr in incoming_headers:
